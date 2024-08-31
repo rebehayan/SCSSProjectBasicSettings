@@ -1,0 +1,7 @@
+@use "../abstracts/" as *;
+
+@layer Components.Table {
+  caption {
+    @include a11y-hidden;
+  }
+}
